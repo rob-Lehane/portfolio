@@ -1,0 +1,12 @@
+.getInTouch {
+    color: #ddd; 
+    text-decoration: none;
+  }
+  
+  .getInTouch:hover {
+    text-decoration: underline;
+  }
+  
+  .getInTouch:visited {
+    color: #ddd; 
+  }

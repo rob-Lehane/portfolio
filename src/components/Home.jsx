@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './css/Home.css'
 
 const App = () => {
   const [textType, setTextType] = useState('short');
@@ -32,7 +34,7 @@ const App = () => {
           <button onClick={() => handleButtonClick('short')}>{'<short />'}</button>
           <button onClick={() => handleButtonClick('long')}>{'<long />'}</button>
         </div>
-        {renderParagraphs('If you want to know more ')}
+        <p>'If you want to know more, <Link to="/contact" className="getInTouch">get in touch with me.</Link></p>
       </div>
     </div>
   );
