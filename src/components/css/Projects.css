@@ -1,0 +1,12 @@
+.project-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .project-list li {
+    list-style: none; /* Remove default list styles */
+    margin: 10px; /* Adjust margin as needed */
+  }
