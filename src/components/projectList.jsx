@@ -3,9 +3,11 @@ const projectList = [
       title: 'shufl.fm',
       desc: (
         <>
-          shufl.fm was created as part of my final project at Northcoders. Alongside three other developers, we set out to build our own bespoke neural network, which takes a user's previous ratings and suggests songs it thinks the user might like.
+          shufl.fm is a React Native mobile app which allows users to listen to music, rate each song and receive new music based on previous ratings. I created a bespoke neural network using Python to provide recommendations to users.
           <br /><br />
-          We developed our own machine learning algorithm, without the use of AI/ML libraries. It has a functioning music player and uses our own custom API to get songs. Each song has 10 characteristics including energy, popularity, and danceability that the neural network uses to learn the user's preferences.
+          I also built a custom API using data from Spotify (song data such as danceability, acousticness etc) and Deezer (album art and mp3 previews) to store our dataset.
+          <br /><br />
+          We developed our own machine learning algorithm, without the use of AI/ML libraries. Each song has 10 characteristics including energy, popularity, and danceability that the neural network uses to learn the user's preferences.
         </>
       ),
       images: ['shufl_frontend.jpeg', 'shufl_backend.png'],
@@ -13,7 +15,7 @@ const projectList = [
         { label: 'Frontend', url: 'https://github.com/rob-Lehane/SHUFFLE-FE/' },
         { label: 'Backend', url: 'https://github.com/joebailey1000/SHUFFLE-BE' },
       ],
-      stack: ['JavaScript (Node.js)', 'React Native', 'Python', 'PSQL', 'Express', 'Jest', 'supertest'],
+      stack: ['JavaScript (Node.js)', 'React Native', 'Python', 'PSQL', 'Express', 'Expo', 'Jest', 'supertest'],
     },
     {
       title: 'NC News',

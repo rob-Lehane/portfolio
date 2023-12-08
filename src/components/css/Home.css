@@ -10,3 +10,7 @@
   .getInTouch:visited {
     color: #ddd; 
   }
+
+  .in-touch {
+    font-family: 'Inconsolata', monospace;
+  }

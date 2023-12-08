@@ -5,10 +5,10 @@ import BodyContainer from './components/BodyContainer'
 function App() {
 
   return (
-    <>
+    <div className = "full">
     <Nav />
     <BodyContainer />
-    </>
+    </div>
   )
   }
 
